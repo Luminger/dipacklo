@@ -1,0 +1,32 @@
+{
+  "author": "Simon Brakhane <simon.brakhane@googlemail.com> (http://failedprojects.org/)",
+  "name": "diablow",
+  "description": "A node.js (javascript) gateway for Diablo 3 based on diablow",
+  "keywords": [
+    "D3", "diablo", "diablo3", "scripting", "node.js", "javascript",
+    "framework", "game"
+  ],
+  "version": "0.0.0",
+  "homepage": "https://github.com/luminger/diapacklo/",
+  "repository": {
+    "type" : "git",
+    "url"  : "git://github.com/luminger/dipacklo.git"
+  },
+  "main": "diapacklo.js",
+  "engines": {
+    "node": ">= v0.6.18"
+  },
+  "dependencies": {
+    "protobuf" : ">= 0.3.1",
+    "underscore" : ">= 1.3.3"
+  },
+  "licenses": [ {
+    "type": "Apache2",
+    "url": "https://github.com/godsflaw/diablow/blob/master/LICENSE"
+  } ],
+  "bugs": {
+    "mail" : "simon.brakhane@googlemail.com",
+    "url" : "https://github.com/luminger/diablow/issues"
+  },
+  "bin": { "diablow": "./bin/diablow" }
+}

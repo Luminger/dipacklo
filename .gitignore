@@ -1,0 +1,3 @@
+gen/diablo.desc
+node_modules/*/
+*.swp
